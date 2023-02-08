@@ -1,0 +1,64 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    align-items: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(29, 5, 251);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.chosen {
+    background-color: rgb(33, 193, 89);
+}
+
+.start-button {
+    display: flex;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto 10px auto;
+    width: 20%;
+    height: 200px;
+    justify-content: center;
+    color: blue;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.winner_title {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.winner_choice {
+    display: flex;
+    width: 100%;
+    color: black;
+    font-size: 35px;
+    justify-content: center;
+}
+
+#score_container{
+    display: flex;
+}
