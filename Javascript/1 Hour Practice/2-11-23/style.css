@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    align-items: center;
+}
+
+.peanut-1 {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+}
+
+.peanut-2 {
+    display: flex;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.peanut-3 {
+    display: flex;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
